@@ -1,4 +1,4 @@
-# H1N1 Flu Vaccine Intake Prediction Using Machine Learning
+# H1n1 Flu Vaccine Intake Prediction Using Machine Learning
 
 ## Project Overview
 The goal of this project is to predict whether individuals got the H1N1 flu vaccine during the 2009 outbreak. The data was collected through a phone survey and included information on respondent’s demographics, social and economic background, health behaviours and opinion on the flu and vaccination. 
