@@ -3,7 +3,7 @@
 ## Project Overview
 The goal of this project is to predict whether individuals got the H1N1 flu vaccine during the 2009 outbreak. The data was collected through a phone survey and included information on respondent’s demographics, social and economic background, health behaviours and opinion on the flu and vaccination. 
 
-## About the data
+## Data Understanding
 **Files Used**
   - `training_set_features.csv`: Demographic, health, and opinion data.
   - `training_set_labels.csv`: Target labels (H1N1 and seasonal flu vaccine).
@@ -31,18 +31,17 @@ The goal of this project is to predict whether individuals got the H1N1 flu vacc
 - Recall (vaccinated): 0.441  
 - ROC-AUC: 0.829
 
-### 🔹 Tuned Logistic Regression
+### Tuned Logistic Regression
 - Tuned `C` and `penalty` using `GridSearchCV`
-- Recall (vaccinated): ** 0.72**
+- Recall (vaccinated):  0.72
 - ROC-AUC: **0.829**
 
-### 🔹 Decision Tree (for comparison)
+### Decision Tree (for comparison)
 - Recall (vaccinated): 0.451  
 - ROC-AUC: 0.640
 
 ## Finding
-- The tuned logistic regression model significantly improved recall while maintaining good precision.
-- Logistic regression outperformed decision trees on most performance metrics.
+The tuned logistic regression model significantly improved recall (from 44% to 72%) while maintaining a strong ROC-AUC score, making it the best model for our goal of identifying individuals likely to get vaccinated.
 
   
 
