@@ -20,7 +20,7 @@ The goal of this project is to predict whether individuals got the H1N1 flu vacc
   - Scikit-learn
   - Matplotlib
 
-## ## Methodology
+## Methodology
 
 ### Data Preprocessing
 - Handled missing values using median (numerical) and "Missing" placeholder (categorical).
